@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.discount {
+    background: #1cd1b0;
+    height: 23px;
+}
+
+.discount p {
+    color: #000;
+    
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.store-name {
+    display: flex;
+    align-items: center;
+    background-color: #00669f;
+}
+
+.store-name img {
+    width: 150px;
+    margin-left: 10px;
+}
+
+
+h1 {
+    color: #fff;
+    font-size: 1.87rem;
+    font-weight: 400;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+nav {
+    background-color: #001d2d;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+li {
+    padding: 5px;
+    color: #fff;
+    font: 1rem;
+    font-weight: 400;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fa-circle-plus {
+    position: absolute;
+    top: 500px;
+    left: 95.5%;
+}
+
+.card {
+    width: 300px;
+    height: 550px;
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.2);
+    background-color: #f3f3f3;
+    margin-top: 100px;
+}
+
+.profile {
+    z-index: 1;
+    position: relative;
+    box-sizing: content-box;
+    left: 95px;
+    bottom: 70px;
+    border-radius: 100%;
+    width: 120px;
+    height: 118px;
+}
+
+/* Styles background for each card */
+.background {
+    height: 193px;
+    width: 300px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.fa-heart {
+    position: relative;
+    bottom: 275px;
+    right: 100px;
+}
+
+.card h2 {
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+}
+
+/* Moves Up p in section in a relative position and centers it */
+.card p {
+    position: relative;
+    bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 190px;
+}
+
+/* "Ver más" Button config */
+button {
+    position: relative;
+    left: 80px;
+    bottom: 48px;
+    background-color: #00669f;
+    color: #f3f3f3;
+    padding: 15px 45px;
+    height: 50px;
+}
+
+footer {
+    background-color: #00669f;
+    margin-top: 150px;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+}

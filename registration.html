@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles_registration.css">
+    <script src="https://kit.fontawesome.com/ed6fdc77c4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Registration</title>
+</head>
+
+<body>
+    <header>
+        <section class="discount">
+            <p>20% de descuento en todos los productos</p>
+        </section>
+        <section class="store-name">
+            <img src="img/Group.png" alt="">
+            <h1>Nombre Tienda</h1>
+        </section>
+        <nav>
+            <ul>
+                <li>Contacto</li>
+                <li>Registrame</li>
+                <li>Ingresar</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="heroes-form">
+            <h2>Añadí tu super!</h2>
+            <p>Agregá tu personaje favorito completando las opciones.</p>
+
+            <for method="post" action="#">
+                <section class="upper">
+                    <div class="upper-left">
+                        <label for="name" class="sub-title">*Nombre</label>
+                        <input type="submitted-name" name="name" class="name-field">
+
+                    </div>
+                    <div class="upper-right">
+                        <label for="species" class="sub-title">*Especie</label>
+                        <select id="species" class="species-field">
+                            <option value="Alien">Extraterrestre</option>
+                            <option value="Meta-human">Meta-humano</option>
+                            <option value="Human">Humano</option>
+                            <option value="God">Dios</option>
+                            <option value="Atlantean">Atlante</option>
+                        </select>
+                    </div>
+                </section>
+
+                <section class="second">
+                    <div class="second-left">
+                        <label for="date" id="date" class="sub-title">Fecha</label>
+                        <input type="date" id="date" name="date" class="date-field">
+                    </div>
+                    <div class="second-right">
+                        <label for="image" id="image" class="sub-title">Agregar foto</label>
+                        <input type="file" id="image" name="image" class="image-submit">
+                    </div>
+                </section>
+
+                <section class="bottom">
+                    <article class="bottom-left">
+                        <textarea name="description" id="description" cols="40" rows="15" placeholder="Descripción"
+                            class="description"></textarea>
+                    </article>
+                    <article class="bottom-right">
+                        <div class="powers">
+                            <p class="sub-title">Poderes</p>
+                            <div class="power-options">
+                                <ul>
+                                    <li>
+                                        <input type="checkbox" id="fly" name="fly" value="fly">
+                                        <label for="fly">Volar</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="intelligence" name="intelligence"
+                                            value="intelligence">
+                                        <label for="intelligence">SuperInteligencia</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="heat-vision" name="heat-vision" value="heat-vision">
+                                        <label for="heat-vision">Vista de rayo láser</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="money" name="money" value="money">
+                                        <label for="money">Billetera gorda</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="alignment">
+                            <p class="sub-title">Tipo de personaje</p>
+                            <ul>
+                                <li>
+                                    <input type="radio" id="hero" name="choice">
+                                    <label for="hero">Héroe / Heroina</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="villain" name="choice">
+                                    <label for="villain">Villano / Villana</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+
+                </section>
+                <section class="submit-button">
+                    <button type="submit">Añadir</button>
+                </section>
+
+                </form>
+        </div>
+    </main>
+
+
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+
+</html>
